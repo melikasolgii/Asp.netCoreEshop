@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ASP.NetCoreEShop")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d6b2f3df28139438920a3bc523fc1fccb989c72f")]
 [assembly: System.Reflection.AssemblyProductAttribute("ASP.NetCoreEShop")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ASP.NetCoreEShop")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
