@@ -1,10 +1,14 @@
-﻿namespace ASP.NetCoreEShop.ShopManagement.SM.Domain.ProductCategoryAgg
+﻿using ASP.NetCoreEShop._0_framework.Domain;
+using ASP.NetCoreEShop.ShopManagement.SM.Application.ShopManagement.Application.Contracts.ProductCategory;
+using Microsoft.IdentityModel.Tokens;
+using System.Linq.Expressions;
+
+namespace ASP.NetCoreEShop.ShopManagement.SM.Domain.ProductCategoryAgg
 {
-    public interface IProductCategoryRepository
+    public interface IProductCategoryRepository:IRepository<long,ProductCategory >
     {
-        void Create(ProductCategory entity);
-       
-        ProductCategory Get(long id);
-        List<ProductCategory> GetAll();
+
+        EditProductCategory GetDetails(long id);
+        List<ProductCategoryViewModel> Search(ProductCategorySearchModel searchModel);
     }
 }
